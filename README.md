@@ -8,4 +8,4 @@ Skills, design systems and craft effects for coding agents.
 npx skills@latest add Nexvyn/designthink
 ```
 
-MIT licensed.
+Licensed under the [Apache License 2.0](LICENSE).

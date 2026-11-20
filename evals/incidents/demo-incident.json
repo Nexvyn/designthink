@@ -1,0 +1,11 @@
+{
+	"id": "gap-6px-on-scale",
+	"skill": "demo-skill",
+	"prompt": "Check the spacing on this settings page against the 4px scale. The label gap is 6px.",
+	"expected": "Flags the 6px gap as off-scale and suggests 4px or 8px.",
+	"fails_if": "reports the 6px gap as on-scale",
+	"rule": {
+		"file": "skills/demo-skill/SKILL.md",
+		"phrase": "multiple of 4px"
+	}
+}
